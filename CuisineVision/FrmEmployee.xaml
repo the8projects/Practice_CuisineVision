@@ -1,0 +1,13 @@
+﻿<Window x:Class="CuisineVision.FrmEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CuisineVision"
+        mc:Ignorable="d"
+        Title="CuisineVision: Main" Height="1080" Width="1920" ResizeMode="NoResize" Icon="img/CuisineVision.ico">
+    <Grid>
+        <DataGrid x:Name="dgOrderedProduct" HorizontalAlignment="Left" Height="552" Margin="51,68,0,0" VerticalAlignment="Top" Width="1812" CanUserAddRows="False" SelectionChanged="DgOrderedProduct_SelectionChanged"/>
+
+    </Grid>
+</Window>
